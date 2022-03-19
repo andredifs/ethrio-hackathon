@@ -1,0 +1,23 @@
+{
+  "name": "socialcrypto-dao",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "yarn workspace socialcrypto-dao-frontend dev",
+    "build": "yarn workspace socialcrypto-dao-frontend build",
+    "start": "yarn workspace socialcrypto-dao-frontend start",
+    "compile": "yarn workspace socialcrypto-dao-hardhat compile",
+    "chain": "yarn workspace socialcrypto-dao-hardhat chain",
+    "deploy:local": "yarn workspace socialcrypto-dao-hardhat deploy:local",
+    "deploy:ropsten": "yarn workspace socialcrypto-dao-hardhat deploy:ropsten",
+    "console:local": "yarn workspace socialcrypto-dao-hardhat console:local",
+    "console:ropsten": "yarn workspace socialcrypto-dao-hardhat console:ropsten"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "**/hardhat",
+      "**/hardhat/**"
+    ]
+  }
+}
