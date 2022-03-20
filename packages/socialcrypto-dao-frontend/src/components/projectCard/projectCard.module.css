@@ -1,0 +1,67 @@
+.allCard{
+    width: 95%;
+    height: 15rem;
+    box-shadow: 0 4px 8px 0 rgb(150, 0, 188, 0.2), 0 6px 20px 0 rgb(150, 0, 188, 0.19);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 2rem;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3.4rem;
+}
+.allCard:hover{
+    box-shadow: rgb(150, 0, 188, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+}
+.allCard img{
+    border-radius: 10px;
+    height: 80%;
+}
+.descWrapper{
+    width: 40%;
+}
+.title{
+    color: #7910FF;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.4rem;
+}
+.text{
+    font-size: 1.2rem;
+    margin: 1.3rem 1rem;
+}
+.priceColumn{
+    display: flex;
+    flex-direction: column;
+}
+.priceLabel{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.4rem;
+}
+.price{
+    font-size: 2rem;
+    margin: 1rem 1rem;
+}
+.purpleText{
+    color: #7910FF;
+}
+.button {
+    background-color: #7910FF;
+    border:2px solid #7910FF;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    width: 100px;
+    color: white;
+    margin: 0 2rem;
+}
+.button:hover {
+    color: #7910FF;
+    background-color: white;
+    border: 2px solid #7910FF;
+    cursor: pointer;
+}

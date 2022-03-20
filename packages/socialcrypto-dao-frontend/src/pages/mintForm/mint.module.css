@@ -1,0 +1,97 @@
+.allContainer{
+    display: flex;
+    background:url('../../../public/artistsBack.png') no-repeat center center/cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    max-height: 150vh;
+    padding-top: 3rem;
+}
+.formStyle{
+    box-shadow: 0 4px 8px 0 rgb(150, 0, 188, 0.2), 0 6px 20px 0 rgb(150, 0, 188, 0.19);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 3rem 4rem;
+    width: 50%;
+    height: 80%;
+    padding: 2rem;
+}
+.previewClass{
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem 2rem;
+}
+.labels{
+    font-size: 1.6rem;
+
+}
+.title{
+    font-family: 'Press Start 2P', cursive;
+}
+.purpleText{
+    color: #7910FF;
+}
+.inputs{
+    width: 100%;
+}
+input{
+    border: 2px solid rgb(150, 0, 188, 0.6);
+    border-radius: 5px;
+    height: 3rem;
+    width: 90%;
+    margin: 1rem;
+}
+input[type="file"]{
+    display: none;
+}
+.wrapper{
+    height: 5rem;
+    margin-top: 3rem;
+}
+.uploadImage{
+    background-color: #7910FF;
+    border:2px solid #7910FF;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    width: 15rem;
+    color: white;
+    margin-top: 1rem;
+}
+.uploadImage:hover{
+    cursor: pointer;
+}
+.textareaClass{
+    height: 50%;
+}
+textarea{
+    height: 5rem;
+    border: 2px solid rgb(150, 0, 188, 0.6);
+    border-radius: 5px;
+    width: 90%;
+    margin: 1rem;
+}
+.button {
+    background-color: #7910FF;
+    border:2px solid #7910FF;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    width: 200px;
+    color: white;
+    margin: 1rem 2rem;
+}
+.button:hover {
+    color: #7910FF;
+    background-color: white;
+    border: 2px solid #7910FF;
+    cursor: pointer;
+}
+.uploaderWrapper{
+    height: 7rem;
+}

@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.allWindow{
+    height: 88vh;
+    background:url('../../../public/SantoAmaro.png') no-repeat center center/cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.allWindow::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(150, 0, 188, 0.6);
+}
+.allWindow *{
+    z-index: 999;
+}
+.title{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.description{
+    margin-top: 2rem;
+}
+.buttonRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+.button {
+    background-color: #7910FF;
+    border:2px solid #7910FF;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    width: 200px;
+    color: white;
+    margin: 1rem 2rem;
+}
+.button a{
+    color: white;
+}
+
+.button:hover a {
+    color: #7910FF;
+}
+.button:hover {
+    background-color: white;
+    border: 2px solid #7910FF;
+    cursor: pointer;
+}
+.button2 {
+    background-color: white;
+    border:2px solid #7910FF;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    width: 200px;
+    color: white;
+    margin: 1rem 2rem;
+}
+.button2 a{
+    color: #7910FF;
+}
+
+.button2:hover a {
+    color: white;
+}
+.button2:hover {
+    background-color: #7910FF;
+    border: 2px solid #7910FF;
+    cursor: pointer;
+}
+.diferenceWindow{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title2{
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+    width: 60%;
+    z-index: 10;
+}
+.title4{
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    width: 60%;
+    z-index: 10;
+}
+.purpleText{
+    color: #7910FF;
+}
+.pic1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 33vh;
+}
+.pic2{
+    position: absolute;
+    left: 33vh;
+    top: 33vh;
+    height: 33vh;
+}
+.pic3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 33vh;
+}
+.pic4{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 23vh;
+}
+.pic5{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 23vh;
+}
+.textWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 8;
+}
+.description2{
+    color: black;
+    font-size: 2.1rem;
+    font-weight: 400;
+    width: 60%;
+    margin-top: 2rem;
+}
+.redirectLink{
+    position: absolute;
+    bottom: 2rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.redirect2{
+    margin-top: 2rem;
+}
+.redirectText{
+    text-decoration: solid;
+    color: #7910FF;
+}
+.redirectText2{
+    text-decoration: solid;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.redirectText2:hover{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nftWindow{
+    height: 88vh;
+    background:url('../../../public/squaredBack.png') no-repeat center center/cover;
+
+}
+.artistsWindow{
+    height: 88vh;
+    background:url('../../../public/artistsBack.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.rowInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nftWindow .rowInfo .menor{
+    height: 72vh;
+    width: auto;
+    border-radius: 10px;
+    margin: 8vh 2rem;
+}
+.title3{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin: 0 5rem;
+}

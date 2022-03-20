@@ -1,0 +1,33 @@
+.allFooter{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(150, 0, 188, 0.8);
+}
+
+.logo{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    height: auto;
+    width: 50%;
+}
+.contacts{
+    margin: 7rem
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    width: 100%;
+}
+.footerLink{
+    font-size: 1.2rem;
+    color: white;
+}
+.linkContainer{
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+}

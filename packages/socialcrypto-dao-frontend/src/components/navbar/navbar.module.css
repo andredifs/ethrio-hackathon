@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.all {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: white;
+    /* background: linear-gradient(90deg, #ff86ff 0, #ff79ff 16.67%, #ce68ff 33.33%, #8953f2 50%, #433dc4 66.67%, #002b9b 83.33%, #001b76 100%); */
+    color: #333;
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 14px 60px;
+    width: 100%;
+    margin: 0;
+    z-index: 10000;
+    opacity: 0.95;
+}
+
+.list {
+  display: flex;
+  list-style: none
+}
+
+.list li{
+    text-decoration: none;
+}
+.navbar .link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    margin: 0 16px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.navbar .link:hover {
+/* border-bottom: #f121cb 2px solid; */
+color: #9600BC;
+}
+.button {
+    position: absolute;
+    right: 8rem;
+    background-color: #9600BC;
+    border:2px solid #9600BC;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    width: 200px;
+    color: white;
+}
+.button .navbarLink {
+    color: white;
+}
+
+.button:hover {
+    background-color: white;
+    border: 2px solid #9600BC;
+    cursor: pointer;
+    color: #9600BC;
+}
