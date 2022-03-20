@@ -15,9 +15,7 @@
   },
   "workspaces": {
     "packages": [
-      "packages/*",
-      "**/hardhat",
-      "**/hardhat/**"
+      "packages/*"
     ]
   }
 }
